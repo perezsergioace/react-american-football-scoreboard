@@ -116,7 +116,9 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
+.awayButtons__fieldGoal,
+.resetHomeButton,
+.resetAwayButton {
   margin: 1rem;
   border-radius: 4px;
 }
