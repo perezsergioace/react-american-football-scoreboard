@@ -45,7 +45,7 @@ const awayTouchDown = function(){ // regular old syntax way
         <div className="awayButtons">
           <button className="awayButtons__touchdown" onClick = {awayTouchDown}>Away Touchdown</button>
           <button className="awayButtons__fieldGoal" onClick = {() => setAwayScore(awayScore + 3)}>Away Field Goal</button>
-          <button className="resetAwayButton" onClick = {() => setAwayScore(0)}>Reset Home Score</button> {/* added reset button*/}
+          <button className="resetAwayButton" onClick = {() => setAwayScore(0)}>Reset Away Score</button> {/* added reset button*/}
         </div>
 
         {/*<button className="resetHomeButton" onClick = {() => setHomeScore(0) + setAwayScore(0)}>Reset Home Score</button> added reset button that resets both scores */}
